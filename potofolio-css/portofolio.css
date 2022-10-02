@@ -1,0 +1,41 @@
+body{
+    background: rgb(217, 224, 224);
+    }
+.beta {
+        color: black;
+        border: 2px solid rgb(48, 30, 167);
+        height: 50px;
+        width:240px;
+        background: rgb(50, 53, 220);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-top: 10px;
+        color: antiquewhite;
+    }
+.class {
+        color: black;
+        border: 2px solid rgb(48, 62, 32);
+        height: 50px;
+        width: 1200px;
+        background: rgb(83, 119, 238);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-top: 10px;
+        color: antiquewhite;
+    }
+    .box {
+        color: black;
+        border: 2px solid rgb(160, 170, 147);
+        height: 30px;
+        width: 100px;
+        background: rgb(37, 22, 209);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: antiquewhite;
+    }
+    .box2 {
+        color: black;
+        border: 2px solid rgb(160, 170, 147);
+        height: 30px;
+        width: 70px;
+        background: rgb(37, 22, 209);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: antiquewhite;
+    }
