@@ -12,6 +12,7 @@
     height: 50px;
     width: 350px;
     background: rgb(175, 147, 109);
+    padding-top: 10px;
 } 
     body{
     background: rgb(146, 80, 146);
@@ -27,4 +28,5 @@
         height: 50px;
         width: 200px;
         background: rgb(175, 147, 109);
+        padding-top: 10px;
     }
