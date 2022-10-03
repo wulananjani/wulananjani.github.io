@@ -15,7 +15,8 @@
     padding-top: 10px;
 } 
     body{
-    background: rgb(146, 80, 146);
+        background-image: url("wulanbiodata.jpg");
+        background-size: cover;
     }
      
     section img{
