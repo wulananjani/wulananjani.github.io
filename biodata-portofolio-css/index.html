@@ -1,73 +1,179 @@
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <link href="style.css" rel="stylesheet" /> 
-<style>
-    .alfa{
-        width: 1200px;
-        border: 2px solid black;
-        background-color: antiquewhite;
-        padding: 10px;
-    }
-    .nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.nav li {
-  float: left;
-}
-
-.nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-</style>
-</head>
-<body>
-  <div class="nav">
-  <ul>
-    <li><a href="">Biodata</a></li>
-    <li><a href="portofolio.html">Portofolio</a></li>
-  </ul>
-</div>
-        <h1 class="box">Ni Wayan Wulan Anjani</h1>
-        <img src="wulzz.jpg" width="150px">
-        <h2 class="square">Tentang Saya</h2>
-        <p class="alfa"align="justify">Nama saya Ni Wayan Wulan Anjani, saya biasa dipanggil Wulan. Asal saya dari Tabanan, Bali. Saya adalah mahasiswa semester 5 Universitas Udayana, Fakultas Ekonomi dan Bisnis, Jurusan Ekonomi Pembangunan.
-            Saya sedang mengikuti MSIB Batch 3 di SEAL karena saya tertarik mempelajari hal baru yang berbau teknologi dan transformasi digital. Keseharian saya selain berkuliah adalah mengikuti organisasi, kepanitiaan, lomba kewirausahaan dan UKM E-Sports divisi MLBB Ladies. Hobi saya yaitu main games, traveling, kulineran dan menari Bali.</p>
-        <h2 class="square">Keahlian Saya</h2>
-
-        <ol class="para align=justify">
-            <li>Management Business</li>
-            <li>Social Media Marketing</li>
-            <li>Adobe Photoshop</li>
-            <li>Canva</li>
-        </ol>
-
-        <h2 class="square">Pendidikan Saya</h2>
-
-        <ul class="para align=justify">
-        <li>2015 - 2017 SMPN 1 Kediri</li>
-        <li>2017 - 2019 SMAN 2 Tabanan</li>
-        <li>2020 - sekarang Universitas Udayana</li>
-        </ul>
-
-        </body>
-        </html>
-        <h2 class="square">Kontak Saya</h2>
-        <p class="para align=justify"><a href="https://instagram.com/wulananjn?igshid=YmMyMTA2M2Y=">Instagram</a> | <a href="https://wa.me/06281913716494">Whatsapp</p></a>
-        <h2 class="square">Portofolio Saya</h2>
-        <p class="para align=justify"><a href="https://github.com/wulananjani/web-basic-seal/commit/9b5f1202ffdf58058c5900e2701efea519d3bbda">Github Portofolio</a>
-        
-        </body>
-        </html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Wulan Personal Web</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm p-3 mb-5 bg-body rounded">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class= "nav-link fw-bolder text-dark" aria-current="page" href="index.html">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a class= "nav-link fw-bolder text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Profile -->
+    <div id="Wulan"class="container d-flex flex-column align-items-center justify-content-center">
+      <img src="wzz.jpeg" class="image-wzz rounded-circle" alt="" />
+      <h1 class="title fw-bold">Hi! I'm Wulan Anjani</h1>
+      <p class="subtitle">Economics student</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+      </svg>
+     </div>
+    <!-- End Profile -->
+    <!-- About Me-->
+      <div class="container">
+          <h2 class="text-center mb-3">About Me</h2>
+          <div class="row">
+          <div class="col-6">
+            <img src="wzp3.jpeg" class="shadow rounded w-100"alt="">
+        </div>
+        <div class="col-6">
+            <p class="text-about text-secondary lh-lg">Hi, i'm Ni Wayan Wulan Anjani but you can call me Wulan/Wulzz, i'm 20 years old. I live at  Tabanan Bali. I am a student of Development Economics at Udayana University. Have the ability to communicate and work well together. Very interested in participating in activities on and off-campus. My hobbies are playing games, balinese dancing, travel, culinary, also cooking. I'm the first child in my family. I also adapted to tech. I love food and game so much, especially chocolate, ice cream and Mobile Legends Bang Bang. I'm Balinese girl who like wearing kebaya. I am a 5th semester student who is taking MBKM at SEAL.  Here I learned cross-sections such as coding using HTML and CSS, learning UI/UX design using Figma. I wish to be a Content Creator in the future. If you are interested in me, contact me below.</p>
+          </div>
+      <!--End About Me-->
+      <!--My Skill-->
+          <div class="container">
+                  <h2 class="text-center mb-3">My Skill</h2>
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="card" style="width: 17rem;">
+                        <img src="microsoft.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">I have good command of Microsoft Office including Word, Excel, Power Point.</p>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="col-3">
+                         <div class="card" style="width: 17rem;">
+                          <img src="social media.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">I am good in social media marketing, using advertising features, interacting with users.</p>
+                          </div>
+                         </div>
+                        </div>
+                        <div class="col-3">
+                         <div class="card" style="width: 17rem;">
+                            <img src="canva.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">I am used to designing using Canva such as id cards, posters, Instagram feeds and stories.</p>
+                            </div>
+                         </div>
+                        </div>
+                        <div class="col-3">
+                         <div class="card" style="width: 17rem;">
+                              <img src="photoshop.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">I use Photoshop to fix photos, edit photos, design posters, change photo object.</p>
+                              </div>
+                         </div>
+                        </div>
+    <!--Education-->
+    <div class="container">
+      <h2 class="text-center mb-3">Education</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Institution</th>
+            <th scope="col">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>SD NEGERI 1 PANDAK BANDUNG</td>
+            <td>2009-2015</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>SMP NEGERI 1 KEDIRI</td>
+            <td>2015-2017</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>SMA NEGERI 2 TABANAN</td>
+            <td>2017-2020</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>UNIVERSITAS UDAYANA</td>
+            <td>2020-now</td>
+          </tr>
+        </tbody>
+      </table>      
+    <!--End Education-->
+    <!--Social Media-->  
+                  </body>
+                  </html>
+                  <div class="container">
+                    <h3>Social Media</h3>
+                  <p><a href="https://instagram.com/wulananjn?igshid=YmMyMTA2M2Y=">Instagram</a> | <a href="https://wa.me/06281913716494">Whatsapp</a> | <a href="https://www.linkedin.com/in/wulan-anjani-872574235">Linkedln</p></a>
+                    <h3>My Github Portofolio</h3>
+                  <p><a href="https://github.com/wulananjani/web-basic-seal/commit/9b5f1202ffdf58058c5900e2701efea519d3bbda">Github Portofolio</a></p>
+                  </div>
+                  </body>
+                  </html>
+    <!-- End Social Media-->
+    <!-- Contact Me-->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6">
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="nama" class="form-label">Name :</label>
+                  <input type="text" class="form-control" id="nama" placeholder="Enter your name">
+                </div>
+  
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email :</label>
+                  <input type="email" class="form-control" id="email" placeholder="Add Email">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Message :</label>
+                <textarea class="form-control" id="pesan" rows="3" placeholder="Add Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </section>
+    <!-- end contact -->
+    <section id="footer">
+        <div class="container">
+             <div class="row">
+                 <div class="col-5 mt-2">
+                     <h5>Wulan Anjani</h5>
+                     <p>
+                         <i class="fas fa-phone"></i> +62 81913716494 | <i class="fas fa-envelope"></i>wulananjani300@gmail.com
+                    </p>
+                </div>
+              </div>
+              <div class="row text-center">
+                <p>Copyright &copy;2022 - Wulan Anjani | All rights reserved</p>
+              </div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

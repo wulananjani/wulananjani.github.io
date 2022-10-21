@@ -1,54 +1,57 @@
-.para {
-    color :black;
-    margin-bottom: 50px;
-    height: 100px;
-    width: 250px;
-    background-color: antiquewhite;
-    border: 2px solid black;
-}
+.copyright {
+    background-color: #fcfbf9;
+  }
+ .image-wzz{
+  width: 250px; 
+  height: 250px;
+  object-fit: cover;
 
-.box {
-    border: 2px solid black;
-    height: 50px;
-    width: 350px;
-    background: rgb(175, 147, 109);
-    padding-top: 10px;
-} 
-    body{
-        background-image: url("wulanbiodata.jpg");
-        background-size: cover;
-    }
-     
-    section img{
-    border-radius: 100%;
-    border: 10px solid #fff;
-    }
-    .square {
-        color: black;
-        border: 2px solid black;
-        height: 50px;
-        width: 200px;
-        background: rgb(175, 147, 109);
-        padding-top: 10px;
-    }
-    /* smartphone */
-/* default (dari 0px sampai min-width selanjutnya)*/
-.hero > img{
+  }
+  .title{
+font-family: sans-serif;
+  }
+  .subtitle{
+    letter-spacing: 10px;
+  }
+  #Wulan {
+    height: 93vh;
+  }
+  #footer {
+    border-top: 5px solid rgb(99, 164, 238);
+    margin-top: 100px;
+    background-color: #b9caf5;
+    color: #000000;
     width: 100%;
+  }
+  .text-about{
+    text-indent: 50px;
+    text-align: justify;
+  }
+  .card-img-top{
+    height: 200px;
+    object-fit: cover;
+  }
+/* smartphone */
+/* default (dari 0px sampai min-width selanjutnya)*/
+@media (min-width: 320px){
+.image-wzz > img{
+  width: 100%;
+}
 }
 
 /* tablet */
 /* jika memasuki 768px */
 @media (min-width: 768px){
-    .hero > img {
-        width: 80%;
-    }
+  .image-wzz > img {
+      width: 80%;
+  }
 }
 
 /* pc */
 /* jika memasuki 992px */
 @media (min-width: 992px){
-    .hero > img {
-        width: 60%;
-    }
+  .image-wzz > img {
+      width: 60%;
+  }
 }
+ 
